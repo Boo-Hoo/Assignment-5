@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shiRt</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container" style="padding: 0">
+        <a href="index.html">
+          <div id="logo">shi<span>R</span>t</div>
+        </a>
+        <ul class="nav">
+          <li><a href="#">Shop All</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">On Sale</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <form class="container">
+        <h3>Billing Information</h3>
+        <fieldset>
+          <input
+            type="text"
+            name="cc_first_name"
+            style="width: 40%"
+            placeholder="First Name"
+          />
+          <input
+            type="text"
+            style="width: 40%"
+            name="cc_last_name"
+            placeholder="Last Name"
+          />
+          <br />
+          <input
+            type="text"
+            name="cc_street1"
+            id="address"
+            class="three-quarters"
+            style="width: 60%"
+            placeholder="Street"
+          />
+          <input type=text name=cc_street2 class=quarter style="width: 20%"
+          placeholder=Apt/Suite>
+          <br />
+          <input
+            type="text"
+            style="width: 40%"
+            name="cc_city"
+            placeholder="City"
+          />
+          <input type=text style="width: 40%" name=cc_state
+          placeholder=State/Province >
+          <br />
+          <input
+            type="text"
+            style="width: 40%"
+            name="cc_postal_code"
+            placeholder="Zip Code"
+          />
+          <select
+            name="cc_country"
+            style="width: 40%"
+            id="country"
+            x-autocompletetype="country"
+          >
+            <option value="United States">US / United States</option>
+            <option value="Canada">Canada</option>
+            <option value="Other">Other</option>
+          </select>
+        </fieldset>
+        <br />
+        <br />
+        <h3 class="lockit">Credit Card Information</h3>
+        <fieldset>
+          <input
+            type="tel"
+            min="1"
+            name="cc_number"
+            placeholder="Card Number"
+            style="width: 40%"
+          />
+
+          <select name="cc_card_type" style="width: 40%">
+            <option value="">Card Type</option>
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="American Express">American Express</option>
+          </select>
+          <br />
+          <input
+            type="tel"
+            name="cvv"
+            min="1"
+            placeholder="CVV"
+            style="width: 40%"
+          />
+          <div style="display: inline; width: 30%; margin-left: 5%">
+            <select name="cc_exp_month" style="margin: 0">
+              <option value="">Expiration Month</option>
+              <option value="01">01 January</option>
+              <option value="02">02 February</option>
+              <option value="03">03 March</option>
+              <option value="04">04 April</option>
+              <option value="05">05 May</option>
+              <option value="06">06 June</option>
+              <option value="07">07 July</option>
+              <option value="08">08 August</option>
+              <option value="09">09 September</option>
+              <option value="10">10 October</option>
+              <option value="11">11 November</option>
+              <option value="12">12 December</option>
+            </select>
+            <select id="expYear" name="cc_exp_year" style="margin-left: 20px">
+              <option value="">Expiration Year</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+              <option value="2025">2025</option>
+              <option value="2026">2026</option>
+            </select>
+          </div>
+        </fieldset>
+        <p style="text-align: center">
+          <button class="cart org" style="width: 250px; padding: 15px 0">
+            Complete My Order!
+          </button>
+        </p>
+      </form>
+      <br />
+      <br />
+    </div>
+    <div class="section">
+      <footer>
+        <div class="container white">
+          <div class="col three">
+            <h2>Why Us?</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+              adipisci sunt, nam veniam sapiente obcaecati soluta aperiam
+              eveniet excepturi ducimus cupiditate enim in quia. Labore aliquid
+              sapiente non temporibus quas!
+            </p>
+          </div>
+          <div class="col three">
+            <h2>Privacy Policy</h2>
+            <p>
+              Optio, exercitationem rerum. Recusandae iure a magnam eaque
+              sapiente voluptas quod reprehenderit autem suscipit fugit, tempora
+              nemo enim iste sed alias possimus.
+            </p>
+            <p>Only external libraries are GFonts.</p>
+          </div>
+          <div class="col three">
+            <h2>Refund Policy</h2>
+            <p>
+              Fugit iusto maxime corrupti voluptatibus hic vel vero impedit
+              quasi ipsam similique voluptatem culpa ut, maiores saepe incidunt
+              cum laboriosam, tenetur necessitatibus.
+            </p>
+            <p>I fail to see a valid reason for this.</p>
+          </div>
+        </div>
+        <p class="center white" style="margin: 0; padding: 15px 0">
+          &copy; All Rights Reserved &middot; 2020
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
