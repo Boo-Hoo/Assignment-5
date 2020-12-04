@@ -1,0 +1,34 @@
+.slider {
+  background: #000;
+  background-image: url("bg-banner.jpg");
+  background-size: cover;
+}
+.slider h1 {
+  color: #f7f7f7;
+}
+.hero {
+  color: white;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.card {
+  background: #fff;
+  border: 1px solid #fefefe;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.card h1 {
+  padding: 0 1%;
+  margin-bottom: 0;
+  text-align: center;
+}
+.col .imgholder {
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  background: #ddd;
+  cursor: pointer;
+}
+.col .imgholder > img {
+  height: 100%;
+}

@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300;400;600&display=swap);
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 54px;
+}
+h2 {
+  color: #f7f7f7;
+  font-size: 26px;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: #333;
+}
+button {
+  border: 1px solid #fff;
+  width: 200px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px 13px;
+}
+.header {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 40px;
+  box-shadow: 0 1px 3px #ccc;
+}
+.container {
+  width: 90%;
+  max-width: 1170px;
+  font-size: 14px;
+  font-weight: 300;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 30px 0 50px;
+}
+.container p {
+  text-align: left;
+}
+#logo {
+  float: left;
+  font-weight: 300;
+  font-size: 36px;
+  background-color: #000;
+  color: #fff;
+  margin: 5px 0;
+  padding: 0 10px;
+}
+#logo > span {
+  font-weight: 600;
+  font-size: 42px;
+}
+ul.nav {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.nav li {
+  float: left;
+  line-height: 65px;
+}
+ul.nav li a {
+  font-size: 18px;
+  color: initial;
+  text-decoration: initial;
+  padding: 21px;
+}
+.section {
+  width: 100%;
+}
+.center {
+  text-align: center;
+}
+.col {
+  float: left;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.three {
+  width: 31.3%;
+  text-align: left;
+  margin: 1%;
+}
+.feature {
+  color: #444;
+  font-size: 26px;
+  font-weight: 300;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+button.cart {
+  margin-top: 10px;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+button.org {
+  background-color: #ff4500;
+}
+.black {
+  color: #444;
+}
+.white {
+  color: #fff;
+}
+footer {
+  background: #000;
+}
+footer h2 {
+  color: #f7f7f7;
+  font-size: 26px;
+}
+@media screen and (max-width: 480px) {
+  .three {
+    width: 99%;
+    margin: 1%;
+  }
+}

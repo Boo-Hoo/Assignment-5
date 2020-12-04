@@ -1,0 +1,92 @@
+.preview,
+.buy {
+  float: left;
+  padding: 10px;
+}
+.preview {
+  width: 60%;
+  padding-left: 10%;
+}
+.preview > img.main {
+  width: 100%;
+}
+.preview > img.prev-img {
+  width: 10%;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+.preview ul {
+  margin: 0;
+  padding-left: 20px;
+}
+.preview ul > li {
+  margin: 8px 0;
+}
+.buy {
+  width: 30%;
+}
+.buy h1,
+.buy h2,
+.preview h2,
+.review-list h2 {
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: #333;
+}
+.buy input,
+.buy select {
+  padding: 15px;
+  border: 1px solid #aaa;
+  margin: 10px 0;
+}
+.buy select {
+  width: 100%;
+}
+.buy input {
+  width: 100px;
+}
+.buy button {
+  width: 100%;
+}
+.buy .feature {
+  color: orangered;
+}
+.buy p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.review-list {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.review {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px;
+  max-width: 800px;
+  border-radius: 3px;
+  border: 1px solid #bfbfbf;
+}
+.review-title {
+  text-align: left;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+.review-score {
+  margin: 0;
+  text-align: left;
+}
+.score {
+  font-size: 28px;
+}
+.score-stars {
+  margin-left: 10;
+}
+.review-text {
+  text-align: left;
+  line-height: 1.45;
+}
